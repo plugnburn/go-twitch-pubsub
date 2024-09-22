@@ -19,3 +19,5 @@ require (
 	golang.org/x/sync v0.7.0 // indirect
 	golang.org/x/tools v0.22.0 // indirect
 )
+
+ replace github.com/pajlada/go-twitch-pubsub => github.com/plugnburn/go-twitch-pubsub
