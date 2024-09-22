@@ -2,7 +2,7 @@
 
 Twitch PubSub library for Go
 
-[![Go Reference](https://pkg.go.dev/badge/github.com/pajlada/go-twitch-pubsub.svg)](https://pkg.go.dev/github.com/pajlada/go-twitch-pubsub)
+[![Go Reference](https://pkg.go.dev/badge/github.com/plugnburn/go-twitch-pubsub.svg)](https://pkg.go.dev/github.com/pajlada/go-twitch-pubsub)
 
 ## Getting Started
 
@@ -12,7 +12,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/pajlada/go-twitch-pubsub"
+	"github.com/plugnburn/go-twitch-pubsub"
 )
 
 func main() {
