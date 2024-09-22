@@ -10,7 +10,7 @@ import (
 	"time"
 )
 
-const pointsEventTopicPrefix = "channel-points-channel-v1."
+const pointsEventTopicPrefix = "community-points-channel-v1."
 
 // PointsEvent describes an incoming "Channel Points" action coming from Twitch's PubSub servers
 type PointsEvent struct {
@@ -77,6 +77,6 @@ func parseChannelIDFromPointsTopic(topic string) (string, error) {
 
 // PointsEventTopic returns a properly formatted points event topic string with the given channel ID argument
 func PointsEventTopic(channelID string) string {
-	const f = `channel-points-channel-v1.%s`
+	const f = `community-points-channel-v1.%s`
 	return fmt.Sprintf(f, channelID)
 }
