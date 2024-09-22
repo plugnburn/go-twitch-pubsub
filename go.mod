@@ -1,6 +1,6 @@
-module github.com/pajlada/go-twitch-pubsub
+module github.com/plugnburn/go-twitch-pubsub
 
-go 1.20
+go 1.23
 
 require (
 	github.com/frankban/quicktest v1.14.6
