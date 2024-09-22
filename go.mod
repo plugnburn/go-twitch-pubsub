@@ -2,8 +2,6 @@ module github.com/plugnburn/go-twitch-pubsub
 
 go 1.23
 
-replace github.com/pajlada/go-twitch-pubsub => github.com/plugnburn/go-twitch-pubsub
-
 require (
 	github.com/frankban/quicktest v1.14.6
 	github.com/gorilla/websocket v1.5.3
